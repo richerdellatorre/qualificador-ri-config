@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-05T02:25:04.548Z",
+  "ultima_atualizacao": "2026-11-05T13:49:45.368Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -18,7 +18,10 @@
         "ativo": true
       }
     ],
-    "instrucoes_adicionais": []
+    "instrucoes_adicionais": [
+      "Impostos (ITBI / ITCMD): Verificar comprovação de recolhimento ou declaração de apresentação no Cartório conforme o padrão obrigatório. Exemplo exigido: “Apresentada a Certidão de Quitação nº 4976/2026, referente ao imposto de ITBI nº 2974/2026, expedida em 24/07/2026 pela Municipalidade, imposto recolhido de R$ 2.800,00”",
+      "Qualificação de Pessoas Jurídicas (DGE/RO): Conferir obrigatoriamente se a representação de Pessoas Jurídicas atende ao Art. 655 das Diretrizes Gerais Judiciais de Rondônia, devendo constar expressamente a menção após a completa qualificação da empresa com RAZÃO SOCIAL, CNPJ e SEDE: \"(Art. 655 – DGE/RO)\""
+    ]
   },
   "regras": {}
 }
