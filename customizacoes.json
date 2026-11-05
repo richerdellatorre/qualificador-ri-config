@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-05T19:00:39.553Z",
+  "ultima_atualizacao": "2026-11-05T19:23:22.156Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -22,7 +22,8 @@
       "Qualificação de Pessoas Jurídicas (DGE/RO): Conferir obrigatoriamente se a representação de Pessoas Jurídicas atende ao Art. 655 das Diretrizes Gerais Judiciais de Rondônia, devendo constar expressamente a menção após a completa qualificação da empresa com RAZÃO SOCIAL, CNPJ e SEDE: \"(Art. 655 – DGE/RO)\"",
       "Impostos (ITBI): Verificar comprovação de recolhimento ou declaração de apresentação no Cartório conforme o padrão obrigatório. Exemplo exigido: “Apresentada a Certidão de Quitação nº 4976/2026, referente ao imposto de ITBI nº 2974/2026, expedida em 24/07/2026 pela Municipalidade, imposto recolhido de R$ 2.800,00”",
       "Impostos (ITCMD): Verificar comprovação de recolhimento ou declaração de apresentação no Cartório conforme o padrão obrigatório. Exemplo exigido: \"Apresentada Guia – DIEF, número do processo 20264200113145, código de autenticidade 1507C4, do Imposto de Transmissão Causa Mortis e Doação – ITCMD, com situação de pagamento baixado\".",
-      "Representação por Procuração: verificar em caso de representação de alguma das partes por Procurador, deverá constar no texto, junto a qualificação da parte representada. Exemplo exigido \"representado por seu procurador, *nome da pessoa*, inscrito no CPF/MF nº xxx.xxx.xxx-xx, conforme Procuração, lavrada no 1º Tabelionato de Notas desta cidade, Livro 784-P, fls. 142/143, em 23/03/2026\", variável e preenchido conforme o título."
+      "Representação por Procuração: verificar em caso de representação de alguma das partes por Procurador, deverá constar no texto, junto a qualificação da parte representada. Exemplo exigido \"representado por seu procurador, *nome da pessoa*, inscrito no CPF/MF nº xxx.xxx.xxx-xx, conforme Procuração, lavrada no 1º Tabelionato de Notas desta cidade, Livro 784-P, fls. 142/143, em 23/03/2026\", variável e preenchido conforme o título.",
+      "Verificar o órgão emissor de Carteira de Identidade (RG), que podem ser alguns dos exemplos: SSDC, SESDEC, SESDC, SSP E SESP;  verificar órgão e estado de emissão de Carteira Nacional de Habilitação (CNH), vai constar como no exemplo: DETRAN/RO."
     ]
   },
   "regras": {}
