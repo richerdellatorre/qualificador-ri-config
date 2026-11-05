@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-05T19:23:31.499Z",
+  "ultima_atualizacao": "2026-11-05T19:59:01.973Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -23,7 +23,8 @@
       "Impostos (ITBI): Verificar comprovação de recolhimento ou declaração de apresentação no Cartório conforme o padrão obrigatório. Exemplo exigido: “Apresentada a Certidão de Quitação nº 4976/2026, referente ao imposto de ITBI nº 2974/2026, expedida em 24/07/2026 pela Municipalidade, imposto recolhido de R$ 2.800,00”",
       "Impostos (ITCMD): Verificar comprovação de recolhimento ou declaração de apresentação no Cartório conforme o padrão obrigatório. Exemplo exigido: \"Apresentada Guia – DIEF, número do processo 20264200113145, código de autenticidade 1507C4, do Imposto de Transmissão Causa Mortis e Doação – ITCMD, com situação de pagamento baixado\".",
       "Representação por Procuração: verificar em caso de representação de alguma das partes por Procurador, deverá constar no texto, junto a qualificação da parte representada. Exemplo exigido \"representado por seu procurador, *nome da pessoa*, inscrito no CPF/MF nº xxx.xxx.xxx-xx, conforme Procuração, lavrada no 1º Tabelionato de Notas desta cidade, Livro 784-P, fls. 142/143, em 23/03/2026\", variável e preenchido conforme o título.",
-      "Verificar o órgão emissor de Carteira de Identidade (RG), que podem ser alguns dos exemplos: SSDC, SESDEC, SESDC, SSP E SESP;  verificar órgão e estado de emissão de Carteira Nacional de Habilitação (CNH), vai constar como no exemplo: DETRAN/RO."
+      "Verificar o órgão emissor de Carteira de Identidade (RG), que podem ser alguns dos exemplos: SSDC, SESDEC, SESDC, SSP E SESP;  verificar órgão e estado de emissão de Carteira Nacional de Habilitação (CNH), vai constar como no exemplo: DETRAN/RO.",
+      "REGRA DE CONCORDÂNCIA – \"PROPRIETÁRIO(S)\" / \"CONDÔMINO(S) PROPRIETÁRIO(S)\": Identifique no próprio texto (qualificação das partes, ou título) QUANTAS pessoas são proprietárias do imóvel. Use essa contagem para ajustar toda a concordância do texto. 1. ESCOLHA DO TERMO: - 1 proprietário ou 1 casal proprietário: deverá constar \"proprietário\" ou \"proprietária\". Nunca use \"condômino\": condomínio exige duas ou mais pessoas ou mais de um casal. - 2 ou mais proprietários: identifique \"condôminos proprietários\" em caso de mais de um casal ou pessoa."
     ]
   },
   "regras": {}
