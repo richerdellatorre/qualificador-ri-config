@@ -1,19 +1,18 @@
 {
-    "ultima_atualizacao":  "2026-11-04T22:10:05.5784488-04:00",
-    "versao":  "1.0",
-    "instrucoes_adicionais":  [
-
-                              ],
-    "cartorio":  "CRI Rondônia",
-    "conferidor":  {
-                       "excecoes":  [
-
-                                    ],
-                       "instrucoes_adicionais":  [
-
-                                                 ]
-                   },
-    "regras":  {
-
-               }
+  "ultima_atualizacao": "2026-11-05T02:20:22.538Z",
+  "versao": "1.0",
+  "instrucoes_adicionais": [],
+  "cartorio": "CRI Rondônia",
+  "conferidor": {
+    "excecoes": [
+      {
+        "codigo": "EX-SELO-01-1795",
+        "descricao": "REGRA DE EXCEÇÃO PARA CÉDULA DE CRÉDITO IMOBILIÁRIO (CCI): Nos atos de averbação de emissão de Cédula de Crédito Imobiliário (CCI) praticados na matrícula (ato acessório, nos termos do art. 18, § 5º, da Lei 10.931/2004), NÃO exigir e NÃO apontar como pendência, erro ou alerta a ausência de selo digital de fiscalização ou de cotação de emolumentos/custas no encerramento desse ato específico, desde que a cobrança e o selo constem no ato principal de registro da garantia ou que se trate de ato isento/ato único.",
+        "tipo": "excecao",
+        "ativo": true
+      }
+    ],
+    "instrucoes_adicionais": []
+  },
+  "regras": {}
 }
