@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-05T02:20:22.538Z",
+  "ultima_atualizacao": "2026-11-05T02:25:04.548Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -8,6 +8,12 @@
       {
         "codigo": "EX-SELO-01-1795",
         "descricao": "REGRA DE EXCEÇÃO PARA CÉDULA DE CRÉDITO IMOBILIÁRIO (CCI): Nos atos de averbação de emissão de Cédula de Crédito Imobiliário (CCI) praticados na matrícula (ato acessório, nos termos do art. 18, § 5º, da Lei 10.931/2004), NÃO exigir e NÃO apontar como pendência, erro ou alerta a ausência de selo digital de fiscalização ou de cotação de emolumentos/custas no encerramento desse ato específico, desde que a cobrança e o selo constem no ato principal de registro da garantia ou que se trate de ato isento/ato único.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-PJ-01-4167",
+        "descricao": "EXCEÇÃO À REGRA PJ-01 (QUALIFICAÇÃO DE CREDORES): Quando a pessoa jurídica figurar no título ou no ato registral na condição de CREDOR FIDUCIÁRIO ou CREDOR HIPOTECÁRIO (inclusive a Caixa Econômica Federal), é DISPENSADA a menção expressa ao texto '(Art. 655 – DGE/RO)' após a indicação da sede/cidade. A IA NÃO deve gerar exigência, alerta ou apontamento de erro pela ausência dessa menção específica nesses casos.",
         "tipo": "excecao",
         "ativo": true
       }
