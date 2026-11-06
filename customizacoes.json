@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-06T01:02:43.933Z",
+  "ultima_atualizacao": "2026-11-06T01:03:52.480Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -32,6 +32,10 @@
     "AL-SEDE-PJ": {
       "ativo": true,
       "observacao": "DIRETRIZ DE QUALIFICAÇÃO SUBJETIVA (PESSOA JURÍDICA - ENDEREÇO DA SEDE): Quando houver divergência entre o endereço da sede da pessoa jurídica constante na matrícula e aquele declarado no título apresentado para registro, NÃO exija averbação de alteração de sede (não cobrar emolumentos ou requerimento específico) e NÃO aponte impedimento ou exigência, desde que a razão social e o número do CNPJ sejam idênticos. O novo endereço informado na escritura pública ou instrumento deve ser considerado válido como atualização cadastral automática."
+    },
+    "QUAL-01": {
+      "ativo": false,
+      "motivo_desativacao": "DIRETRIZ DE EXCEÇÃO (QUALIFICAÇÃO SUBJETIVA - E-MAIL): A ausência de endereço eletrônico (e-mail) na qualificação das partes (pessoas físicas ou jurídicas) ou a menção de que o e-mail é 'não informado', 'não declarado' ou 'inexistente' no título ou na matrícula NÃO constitui pendência registral. A IA deve considerar o requisito plenamente atendido nessas hipóteses e está terminantemente proibida de gerar EXIGÊNCIA, IMPEDIMENTO ou ALERTA por falta de e-mail das partes."
     }
   }
 }
