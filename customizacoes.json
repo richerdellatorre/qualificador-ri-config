@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-05T20:11:58.422Z",
+  "ultima_atualizacao": "2026-11-06T01:02:43.933Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -28,5 +28,10 @@
       "Verificar, no texto do ato registral (minuta de abertura de matrícula ou Registro com transferência de área), se a DISTRIBUIÇÃO DE ÁREA ENTRE OS CONDÔMINOS PROPRIETÁRIOS está presente e correta. Se o imóvel tiver mais de um proprietário, essa distribuição é OBRIGATÓRIA e deve vir logo depois da qualificação de todos os condôminos."
     ]
   },
-  "regras": {}
+  "regras": {
+    "AL-SEDE-PJ": {
+      "ativo": true,
+      "observacao": "DIRETRIZ DE QUALIFICAÇÃO SUBJETIVA (PESSOA JURÍDICA - ENDEREÇO DA SEDE): Quando houver divergência entre o endereço da sede da pessoa jurídica constante na matrícula e aquele declarado no título apresentado para registro, NÃO exija averbação de alteração de sede (não cobrar emolumentos ou requerimento específico) e NÃO aponte impedimento ou exigência, desde que a razão social e o número do CNPJ sejam idênticos. O novo endereço informado na escritura pública ou instrumento deve ser considerado válido como atualização cadastral automática."
+    }
+  }
 }
