@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T16:32:10.387Z",
+  "ultima_atualizacao": "2026-11-07T16:34:48.626Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -127,6 +127,10 @@
     "PJ-01": {
       "ativo": true,
       "observacao": "REGRA PJ-01 (REPRESENTAÇÃO DE PESSOA JURÍDICA): 1. Quando o título apresentado for ESCRITURA PÚBLICA e nela constar a menção aos atos constitutivos (Contrato Social/Estatuto) e/ou Certidão Simplificada da Junta Comercial que legitimam a representação da pessoa jurídica (inclusive por procuração pública), NÃO exigir a apresentação física desses documentos no protocolo do Registro de Imóveis, presumindo-se a conferência pelo Tabelião de Notas (fé pública notarial). 2. Quando o título for INSTRUMENTO PARTICULAR, é OBRIGATÓRIO exigir a apresentação do Contrato Social consolidado/Estatuto e da Certidão Simplificada atualizada para verificação dos poderes de representação. 3. EXCEÇÃO RURAL: Se pessoa jurídica estiver adquirindo IMÓVEL RURAL, mantenha a verificação obrigatória da nacionalidade dos sócios (Lei nº 5.709/71), exigindo o Contrato Social caso a escritura pública não certifique expressamente que a empresa é constituída exclusivamente por capital e sócios brasileiros."
+    },
+    "AL-PROC-01": {
+      "ativo": false,
+      "motivo_desativacao": "REGRA SOBRE DUPLA REPRESENTAÇÃO POR PROCURADOR (ART. 117 DO CC): Em escrituras públicas onde um único procurador represente simultaneamente ambas as partes contratantes (transmitentes e adquirentes), NÃO gere alerta, exigência ou impedimento referente à dupla representação ou ao art. 117 do Código Civil, DESDE QUE: (1) os dados das respectivas procurações (cartório, livro e folhas) estejam devidamente mencionados no corpo da escritura pública; e (2) conste expressamente a forma de assinatura do procurador (presencial ou digital via e-Notariado). Cumpridos esses dois requisitos, presuma a regularidade da conferência notarial e valide a representação sem ressalvas."
     }
   }
 }
