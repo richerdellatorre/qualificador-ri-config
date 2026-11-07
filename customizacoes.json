@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T13:45:41.144Z",
+  "ultima_atualizacao": "2026-11-07T13:47:30.650Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -62,6 +62,10 @@
     "IMP-01": {
       "ativo": true,
       "observacao": "DIRETRIZ DE AUDITORIA PARA DOAÇÃO (ITCMD E DIEF): 1. DOAÇÃO COM ISENÇÃO DECLARADA: Quando a escritura pública de doação mencionar o número de protocolo da DIEF e declarar expressamente que a operação faz jus à isenção de ITCMD (ainda que pendente de homologação pelo Fisco/SEFIN-RO), NÃO EXIGIR guia de recolhimento nem certidão de homologação da isenção, dando o requisito fiscal por cumprido (exceto se houver usufruto). 2. DOAÇÃO COM RESERVA OU INSTITUIÇÃO DE USUFRUTO: Sempre que a doação envolver reserva ou instituição de usufruto (com ou sem isenção), é OBRIGATÓRIA a apresentação física do documento da DIEF anexado ao protocolo. Caso a DIEF não seja enviada nos atos com usufruto, gere IMPEDIMENTO/EXIGÊNCIA GRAVE (IMP-01), fundamentando na necessidade de conferência da base de cálculo e verificação do recolhimento ou postergação das custas/imposto incidentes especificamente sobre o direito real de usufruto."
+    },
+    "AL-ONUS": {
+      "ativo": true,
+      "observacao": "DIRETRIZ DE QUALIFICAÇÃO (HIPOTECA E PENHOR CEDULAR RURAL): Sempre que a matrícula apresentar gravame ativo de Hipoteca Cedular ou Penhor Cedular oriundos de Cédula de Crédito Rural (Decreto-Lei nº 167/67) ou Cédula de Produto Rural (Lei nº 8.929/94) não baixados/cancelados, e o título apresentado visar a alienação ou transferência do imóvel (total ou de fração ideal), a IA deve classificar a pendência obrigatoriamente como EXIGÊNCIA (e não apenas Alerta). Deve-se exigir a apresentação da anuência expressa e por escrito do credor fiduciário/hipotecário autorizando a alienação (com firma reconhecida ou assinatura digital válida e comprovação de poderes de representação), ou, alternativamente, o termo de quitação/instrumento de liberação para a prévia averbação de cancelamento dos respectivos gravames na matrícula, nos termos do art. 59 do Decreto-Lei nº 167/67."
     }
   }
 }
