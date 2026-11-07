@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T16:20:57.327Z",
+  "ultima_atualizacao": "2026-11-07T16:22:24.026Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -45,6 +45,12 @@
       {
         "codigo": "EX-DADOS-01-9745",
         "descricao": "EXCEÇÃO DE ANÁLISE TEXTUAL (PARTILHA E INVENTÁRIO): Em títulos de inventário e partilha onde concorram cônjuge/companheiro sobrevivente (meeiro) e herdeiros, NÃO gere exigência, alerta ou apontamento de retificação caso o texto utilize a expressão padronizada 'como pagamento de suas legítimas' (ou similar) de forma genérica para englobar todos os adjudicantes. A IA deve validar apenas se a proporção das frações ideais (meação vs. quinhão hereditário) está matematicamente correta, ignorando a impropriedade técnica do termo 'legítima' aplicado à meação.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-DESC-02-3401",
+        "descricao": "PROCEDIMENTO DE ANÁLISE DE CARACTERIZAÇÃO E DESMEMBRAMENTO (DESC-02): Na verificação da área desmembrada ou remanescente, realize o cotejo analítico exaustivo de TODOS os marcos (vértices), coordenadas georreferenciadas, azimutes, distâncias e confrontações constantes na escritura em face do Mapa, Memorial Descritivo e ART/TRT apresentados. Caso haja divergência ou omissão em qualquer um dos marcos perimetrais, emita EXIGÊNCIA detalhando nominalmente cada marco/vértice divergente para retificação do título ou da peça técnica.",
         "tipo": "excecao",
         "ativo": true
       }
