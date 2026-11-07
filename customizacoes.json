@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T16:23:39.453Z",
+  "ultima_atualizacao": "2026-11-07T16:30:46.410Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -51,6 +51,12 @@
       {
         "codigo": "EX-DESC-02-3401",
         "descricao": "PROCEDIMENTO DE ANÁLISE DE CARACTERIZAÇÃO E DESMEMBRAMENTO (DESC-02): Na verificação da área desmembrada ou remanescente, realize o cotejo analítico exaustivo de TODOS os marcos (vértices), coordenadas georreferenciadas, azimutes, distâncias e confrontações constantes na escritura em face do Mapa, Memorial Descritivo e ART/TRT apresentados. Caso haja divergência ou omissão em qualquer um dos marcos perimetrais, emita EXIGÊNCIA detalhando nominalmente cada marco/vértice divergente para retificação do título ou da peça técnica.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-DESC-01-5841",
+        "descricao": "DIRETRIZ DE EXCEÇÃO (DESC-01): Quando houver divergência meramente material (como a adição ou omissão de zeros à esquerda/direita) no número da ART/TRT citado na minuta ou requerimento em comparação com o documento original da ART/TRT e os memoriais do SIGEF, NÃO gere exigência de retificação da minuta. Considere como correto e prevalente o número expresso no próprio documento oficial de responsabilidade técnica apresentado. Emita apenas um ALERTA informativo ao escrevente apontando o número exato constante na ART/TRT que deverá ser utilizado na lavratura da averbação.",
         "tipo": "excecao",
         "ativo": true
       }
