@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-06T15:51:01.281Z",
+  "ultima_atualizacao": "2026-11-07T12:45:20.484Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -41,6 +41,10 @@
     "AL-EST-CIVIL": {
       "ativo": true,
       "observacao": "DIRETRIZ DE CONGRUÊNCIA CRONOLÓGICA DO ESTADO CIVIL (TEMPUS REGIT ACTUM): Ao qualificar o estado civil das partes, a IA deve cruzar a data de lavratura/emissão do título com as datas de casamento, separação ou divórcio constantes na certidão do Registro Civil apresentada. Se o estado civil declarado no título não corresponder exatamente ao estado civil vigente na data da lavratura do instrumento (exemplo: parte declarada 'divorciada' no título, mas cujo divórcio foi decretado ou averbado em data posterior à emissão do título), é PROIBIDO convalidar o ato com base no estado civil atual. A IA deve obrigatoriamente classificar a situação como EXIGÊNCIA, determinando a retificação do título para constar o estado civil real à época do ato e a verificação dos reflexos patrimoniais (comunicabilidade do bem ou partilha)."
+    },
+    "AL-002": {
+      "ativo": false,
+      "motivo_desativacao": "REGRA DE ITBI POSTERGADO: É plenamente válido o recolhimento do ITBI em data posterior à lavratura da escritura pública, desde que o comprovante de pagamento ou a certidão de quitação seja apresentado no ato do protocolo para registro. A IA NÃO deve gerar exigência, impedimento ou alerta pelo simples fato de a data de pagamento do ITBI ser posterior à data da escritura. A exigência de ITBI somente deverá ser gerada caso o comprovante de quitação esteja ausente ou com valor incompatível."
     }
   }
 }
