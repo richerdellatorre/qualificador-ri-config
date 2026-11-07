@@ -1,7 +1,9 @@
 {
-  "ultima_atualizacao": "2026-11-07T12:47:49.860Z",
+  "ultima_atualizacao": "2026-11-07T12:54:23.344Z",
   "versao": "1.0",
-  "instrucoes_adicionais": [],
+  "instrucoes_adicionais": [
+    "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente."
+  ],
   "cartorio": "CRI Rondônia",
   "conferidor": {
     "excecoes": [
