@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T16:30:46.410Z",
+  "ultima_atualizacao": "2026-11-07T16:32:10.387Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -123,6 +123,10 @@
     "IMP-FMP-01": {
       "ativo": true,
       "observacao": "DIRETRIZ DE EXCEÇÃO (REGRA IMP-FMP-01 - FRAÇÃO MÍNIMA DE PARCELAMENTO): Na análise de títulos translativos de imóveis rurais, NÃO aponte impedimento ou exigência quando o objeto da alienação for uma 'fração ideal' (em percentual ou equivalente em hectares) inferior à Fração Mínima de Parcelamento (FMP) do INCRA, DESDE QUE: (1) o ato configure mera formação de condomínio geral civil (pro indiviso) sobre a totalidade da matrícula; (2) o imóvel como um todo possua área total igual ou superior à FMP e não esteja sofrendo desmembramento matricial;"
+    },
+    "PJ-01": {
+      "ativo": true,
+      "observacao": "REGRA PJ-01 (REPRESENTAÇÃO DE PESSOA JURÍDICA): 1. Quando o título apresentado for ESCRITURA PÚBLICA e nela constar a menção aos atos constitutivos (Contrato Social/Estatuto) e/ou Certidão Simplificada da Junta Comercial que legitimam a representação da pessoa jurídica (inclusive por procuração pública), NÃO exigir a apresentação física desses documentos no protocolo do Registro de Imóveis, presumindo-se a conferência pelo Tabelião de Notas (fé pública notarial). 2. Quando o título for INSTRUMENTO PARTICULAR, é OBRIGATÓRIO exigir a apresentação do Contrato Social consolidado/Estatuto e da Certidão Simplificada atualizada para verificação dos poderes de representação. 3. EXCEÇÃO RURAL: Se pessoa jurídica estiver adquirindo IMÓVEL RURAL, mantenha a verificação obrigatória da nacionalidade dos sócios (Lei nº 5.709/71), exigindo o Contrato Social caso a escritura pública não certifique expressamente que a empresa é constituída exclusivamente por capital e sócios brasileiros."
     }
   }
 }
