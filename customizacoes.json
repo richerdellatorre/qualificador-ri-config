@@ -1,8 +1,10 @@
 {
-  "ultima_atualizacao": "2026-11-07T12:54:23.344Z",
+  "ultima_atualizacao": "2026-11-07T12:59:43.121Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
-    "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente."
+    "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
+    "nova regra: CONFERÊNCIA DO NÚMERO DA GUIA (CRUZAMENTO DE DADOS): Identifique o número da Guia de Recolhimento do ITBI impresso na Certidão de Quitação e compare-o obrigatoriamente com o número da Guia de Recolhimento física/digital anexada ao processo. Os números devem coincidir perfeitamente, caso não coincidam, aponte o erro.",
+    "nova regra: Ao verificar a minuta de escritura ou contrato  que se refere à alienação de parte ou da totalidade da fração ideal pertencente a um condômino específico, verifique rigorosamente se o documento cumpre os seguintes requisitos obrigatórios:  1. DESCRIÇÃO DA ÁREA TOTAL: O instrumento deve conter obrigatoriamente a descrição completa e correta de todo o imóvel (área total, confrontações e dados registrais originais). 2. ESPECIFICAÇÃO DA TITULARIDADE DO VENDEDOR: Deve constar de forma clara e inequívoca qual é o tamanho exato da fração ideal (ou cota-parte) que o condômino vendedor detém sobre aquele imóvel (seja a totalidade de sua fração ou parte dela).  DIRETRIZ DE AUDITORIA: Caso o documento omita a descrição da área total do imóvel ou deixe de especificar com clareza a proporção exata da fração detida e vendida pelo condômino, aponte a inconformidade."
   ],
   "cartorio": "CRI Rondônia",
   "conferidor": {
