@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T14:52:40.781Z",
+  "ultima_atualizacao": "2026-11-07T15:04:58.382Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -21,6 +21,12 @@
       {
         "codigo": "EX-PJ-01-4167",
         "descricao": "EXCEÇÃO À REGRA PJ-01 (QUALIFICAÇÃO DE CREDORES): Quando a pessoa jurídica figurar no título ou no ato registral na condição de CREDOR FIDUCIÁRIO ou CREDOR HIPOTECÁRIO (inclusive a Caixa Econômica Federal), é DISPENSADA a menção expressa ao texto '(Art. 655 – DGE/RO)' após a indicação da sede/cidade. A IA NÃO deve gerar exigência, alerta ou apontamento de erro pela ausência dessa menção específica nesses casos.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-QUAL-02-7744",
+        "descricao": "EXCEÇÃO À REGRA QUAL-02 (REPRESENTAÇÃO POR PROCURAÇÃO EM ESCRITURA PÚBLICA): Quando o título apresentado for uma Escritura Pública e houver menção, em qualquer parte do texto notarial (preâmbulo, corpo ou fecho), de que a procuração foi apresentada ao Tabelionato de Notas na lavratura do ato, considere cumprido o requisito de representação. NÃO gere exigência ou alerta por ausência de repetição dos dados do procurador ou do mandato junto ao bloco de qualificação individual de cada parte (ex: viúva meeira, herdeiros, transmitentes ou adquirentes).",
         "tipo": "excecao",
         "ativo": true
       }
