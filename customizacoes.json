@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T13:30:39.274Z",
+  "ultima_atualizacao": "2026-11-07T13:31:50.891Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -56,6 +56,10 @@
     "AL-003": {
       "ativo": false,
       "motivo_desativacao": "REGRA DE ANÁLISE DE LAYOUT DE MATRÍCULA (FICHAS PRÉ-IMPRESSAS): Não gerar exigência ou alerta de 'matrícula incompleta' apenas pela presença das expressões padronizadas 'continua no verso', 'continua na folha nº X' ou 'continua na próxima ficha' no rodapé ou margem do documento. Tais textos fazem parte do formulário pré-impresso do cartório e constam mesmo quando não há atos subsequentes. Somente aponte falha de completude da matrícula em duas hipóteses estritas: (1) se o texto do último registro/averbação visível terminar de forma abrupta/cortada no final da página; ou (2) se o título apresentado mencionar expressamente um número de registro ou averbação posterior (ex: R-5, AV-6) que não conste nas páginas fornecidas."
+    },
+    "IMP-01": {
+      "ativo": true,
+      "observacao": "DIRETRIZ DE AUDITORIA PARA DOAÇÃO (ITCMD E DIEF): 1. DOAÇÃO COM ISENÇÃO DECLARADA: Quando a escritura pública de doação mencionar o número de protocolo da DIEF e declarar expressamente que a operação faz jus à isenção de ITCMD (ainda que pendente de homologação pelo Fisco/SEFIN-RO), NÃO EXIGIR guia de recolhimento nem certidão de homologação da isenção, dando o requisito fiscal por cumprido (exceto se houver usufruto). 2. DOAÇÃO COM RESERVA OU INSTITUIÇÃO DE USUFRUTO: Sempre que a doação envolver reserva ou instituição de usufruto (com ou sem isenção), é OBRIGATÓRIA a apresentação física do documento da DIEF anexado ao protocolo. Caso a DIEF não seja enviada nos atos com usufruto, gere IMPEDIMENTO/EXIGÊNCIA GRAVE (IMP-01), fundamentando na necessidade de conferência da base de cálculo e verificação do recolhimento ou postergação das custas/imposto incidentes especificamente sobre o direito real de usufruto."
     }
   }
 }
