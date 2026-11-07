@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T14:21:06.412Z",
+  "ultima_atualizacao": "2026-11-07T14:31:27.292Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -75,6 +75,10 @@
     "AL-VAL": {
       "ativo": true,
       "observacao": "EXCEÇÃO DE ANÁLISE DO ITBI (REGRA AL-VAL): Nas guias e certidões de ITBI, o campo denominado pela Prefeitura como 'Valor Declarado' corresponde à avaliação fiscal municipal (base de cálculo sobre a qual incide o imposto) e pode ser superior ao preço do negócio jurídico sem configurar irregularidade. A validação de compatibilidade de valores deve ocorrer estritamente entre o campo 'Valor da Transação' (constante no ITBI) e o valor do negócio jurídico declarado na Escritura Pública. Portanto: 1) NÃO gere exigência ou alerta se o 'Valor Declarado' no ITBI for maior que o valor da escritura, desde que o imposto tenha sido calculado sobre ele; 2) EXIJA a exata coincidência entre o 'Valor da Transação' no ITBI e o preço de venda na escritura; 3) GERE exigência apenas se o 'Valor da Transação' divergir do valor da escritura ou se a base de cálculo utilizada para cobrança do ITBI for inferior ao valor do negócio."
+    },
+    "AL-ORTO-01": {
+      "ativo": true,
+      "observacao": "DIRETRIZ DE FILTRAGEM DE ERROS MATERIAIS E ORTOGRÁFICOS (AL-ORTO-01): A IA deve IGNORAR meros erros de digitação, concordância gramatical, espaçamento ou truncamento de palavras no texto corrido do título (ex: 'Servantia', 'R$ R$', 'de forma digita'). A IA SOMENTE deverá apontar alerta ou exigência por erro ortográfico ou de digitação quando o equívoco recair sobre elementos essenciais da Especialidade Subjetiva (grafia do nome das partes, número de CPF/RG/CNPJ, estado civil) ou da Especialidade Objetiva (número da matrícula, lote/quadra/gleba, área transmitida/remanescente ou divergência entre algarismos e extenso nas medidas do imóvel)."
     }
   }
 }
