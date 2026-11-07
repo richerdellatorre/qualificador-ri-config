@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T15:09:24.785Z",
+  "ultima_atualizacao": "2026-11-07T15:17:15.760Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -33,6 +33,12 @@
       {
         "codigo": "EX-DIST-01-4154",
         "descricao": "EXCEÇÃO À REGRA DIST-01 (INSTRUMENTOS PÚBLICOS): Na análise ou elaboração de minutas decorrentes de quaisquer Escrituras Públicas, a indicação da distribuição de área ou fração ideal entre os adquirentes deverá ser posicionada imediatamente após a expressão 'Condições: as constantes da Escritura'. Nesses casos específicos de títulos notarizados, considere o posicionamento no final do ato como válido e padrão da serventia, abstendo-se de apontar erro, alerta ou exigência fundamentada na regra DIST-01.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-QUAL-01-5197",
+        "descricao": "DIRETRIZ DE ESPECIALIDADE SUBJETIVA TOTAL (QUAL-01): Em qualquer título translativo ou declaratório de propriedade (incluindo inventários, partilhas, adjudicações e compra e venda em condomínio), a IA deve verificar se TODOS os sujeitos que deterão fração ideal ou titularidade sobre o imóvel (adquirentes, herdeiros, legatários e cônjuges/companheiros meeiros) possuem qualificação completa e correta no corpo do título. Caso haja omissão da qualificação de qualquer um dos futuros coproprietários/titulares, ou erro material na atribuição de sua qualidade jurídica (ex: confundir herdeiro com meeiro), a IA deverá apontar EXIGÊNCIA fundamentada no Princípio da Especialidade Subjetiva (art. 176, § 1º, III, '2', da Lei 6.015/73 e Provimento CNJ nº 61/2017), exigindo a apresentação de documentos comprobatórios para saneamento ou a retificação do título, conforme o caso.",
         "tipo": "excecao",
         "ativo": true
       }
