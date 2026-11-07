@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T14:04:11.401Z",
+  "ultima_atualizacao": "2026-11-07T14:21:06.412Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -71,6 +71,10 @@
     "AL-DOM": {
       "ativo": false,
       "motivo_desativacao": "REGRA DE QUALIFICAÇÃO SUBJETIVA — ENDEREÇO E DOMICÍLIO DAS PARTES: 1) NÃO gere exigência, alerta ou saneamento quando o endereço/domicílio das partes (transmitentes, adquirentes ou anuentes) declarado no título divergir do endereço constante na matrícula. A mudança de endereço não exige averbação prévia. 2) A verificação da IA quanto ao endereço deve se limitar a confirmar se o título informa o endereço completo atual da parte, contendo obrigatoriamente logradouro/localidade, município e unidade da federação (UF). Estando completo no título, considere o requisito integralmente cumprido."
+    },
+    "AL-VAL": {
+      "ativo": true,
+      "observacao": "EXCEÇÃO DE ANÁLISE DO ITBI (REGRA AL-VAL): Nas guias e certidões de ITBI, o campo denominado pela Prefeitura como 'Valor Declarado' corresponde à avaliação fiscal municipal (base de cálculo sobre a qual incide o imposto) e pode ser superior ao preço do negócio jurídico sem configurar irregularidade. A validação de compatibilidade de valores deve ocorrer estritamente entre o campo 'Valor da Transação' (constante no ITBI) e o valor do negócio jurídico declarado na Escritura Pública. Portanto: 1) NÃO gere exigência ou alerta se o 'Valor Declarado' no ITBI for maior que o valor da escritura, desde que o imposto tenha sido calculado sobre ele; 2) EXIJA a exata coincidência entre o 'Valor da Transação' no ITBI e o preço de venda na escritura; 3) GERE exigência apenas se o 'Valor da Transação' divergir do valor da escritura ou se a base de cálculo utilizada para cobrança do ITBI for inferior ao valor do negócio."
     }
   }
 }
