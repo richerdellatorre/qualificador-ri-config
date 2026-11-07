@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T15:32:40.352Z",
+  "ultima_atualizacao": "2026-11-07T16:20:57.327Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -107,6 +107,10 @@
     "AL-ORTO-01": {
       "ativo": true,
       "observacao": "DIRETRIZ DE FILTRAGEM DE ERROS MATERIAIS E ORTOGRÁFICOS (AL-ORTO-01): A IA deve IGNORAR meros erros de digitação, concordância gramatical, espaçamento ou truncamento de palavras no texto corrido do título (ex: 'Servantia', 'R$ R$', 'de forma digita'). A IA SOMENTE deverá apontar alerta ou exigência por erro ortográfico ou de digitação quando o equívoco recair sobre elementos essenciais da Especialidade Subjetiva (grafia do nome das partes, número de CPF/RG/CNPJ, estado civil) ou da Especialidade Objetiva (número da matrícula, lote/quadra/gleba, área transmitida/remanescente ou divergência entre algarismos e extenso nas medidas do imóvel)."
+    },
+    "IMP-FMP-01": {
+      "ativo": true,
+      "observacao": "DIRETRIZ DE EXCEÇÃO (REGRA IMP-FMP-01 - FRAÇÃO MÍNIMA DE PARCELAMENTO): Na análise de títulos translativos de imóveis rurais, NÃO aponte impedimento ou exigência quando o objeto da alienação for uma 'fração ideal' (em percentual ou equivalente em hectares) inferior à Fração Mínima de Parcelamento (FMP) do INCRA, DESDE QUE: (1) o ato configure mera formação de condomínio geral civil (pro indiviso) sobre a totalidade da matrícula; (2) o imóvel como um todo possua área total igual ou superior à FMP e não esteja sofrendo desmembramento matricial;"
     }
   }
 }
