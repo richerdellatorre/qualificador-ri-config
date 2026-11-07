@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T12:45:20.484Z",
+  "ultima_atualizacao": "2026-11-07T12:47:49.860Z",
   "versao": "1.0",
   "instrucoes_adicionais": [],
   "cartorio": "CRI Rondônia",
@@ -45,6 +45,10 @@
     "AL-002": {
       "ativo": false,
       "motivo_desativacao": "REGRA DE ITBI POSTERGADO: É plenamente válido o recolhimento do ITBI em data posterior à lavratura da escritura pública, desde que o comprovante de pagamento ou a certidão de quitação seja apresentado no ato do protocolo para registro. A IA NÃO deve gerar exigência, impedimento ou alerta pelo simples fato de a data de pagamento do ITBI ser posterior à data da escritura. A exigência de ITBI somente deverá ser gerada caso o comprovante de quitação esteja ausente ou com valor incompatível."
+    },
+    "AL-003": {
+      "ativo": false,
+      "motivo_desativacao": "REGRA DE ANÁLISE DE LAYOUT DE MATRÍCULA (FICHAS PRÉ-IMPRESSAS): Não gerar exigência ou alerta de 'matrícula incompleta' apenas pela presença das expressões padronizadas 'continua no verso', 'continua na folha nº X' ou 'continua na próxima ficha' no rodapé ou margem do documento. Tais textos fazem parte do formulário pré-impresso do cartório e constam mesmo quando não há atos subsequentes. Somente aponte falha de completude da matrícula em duas hipóteses estritas: (1) se o texto do último registro/averbação visível terminar de forma abrupta/cortada no final da página; ou (2) se o título apresentado mencionar expressamente um número de registro ou averbação posterior (ex: R-5, AV-6) que não conste nas páginas fornecidas."
     }
   }
 }
