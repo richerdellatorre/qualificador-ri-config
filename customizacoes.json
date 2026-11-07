@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T15:29:58.495Z",
+  "ultima_atualizacao": "2026-11-07T15:32:40.352Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -39,6 +39,12 @@
       {
         "codigo": "EX-QUAL-01-5197",
         "descricao": "DIRETRIZ DE ESPECIALIDADE SUBJETIVA TOTAL (QUAL-01): Em qualquer título translativo ou declaratório de propriedade (incluindo inventários, partilhas, adjudicações e compra e venda em condomínio), a IA deve verificar se TODOS os sujeitos que deterão fração ideal ou titularidade sobre o imóvel (adquirentes, herdeiros, legatários e cônjuges/companheiros meeiros) possuem qualificação completa e correta no corpo do título. Caso haja omissão da qualificação de qualquer um dos futuros coproprietários/titulares, ou erro material na atribuição de sua qualidade jurídica (ex: confundir herdeiro com meeiro), a IA deverá apontar EXIGÊNCIA fundamentada no Princípio da Especialidade Subjetiva (art. 176, § 1º, III, '2', da Lei 6.015/73 e Provimento CNJ nº 61/2017), exigindo a apresentação de documentos comprobatórios para saneamento ou a retificação do título, conforme o caso.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-DADOS-01-9745",
+        "descricao": "EXCEÇÃO DE ANÁLISE TEXTUAL (PARTILHA E INVENTÁRIO): Em títulos de inventário e partilha onde concorram cônjuge/companheiro sobrevivente (meeiro) e herdeiros, NÃO gere exigência, alerta ou apontamento de retificação caso o texto utilize a expressão padronizada 'como pagamento de suas legítimas' (ou similar) de forma genérica para englobar todos os adjudicantes. A IA deve validar apenas se a proporção das frações ideais (meação vs. quinhão hereditário) está matematicamente correta, ignorando a impropriedade técnica do termo 'legítima' aplicado à meação.",
         "tipo": "excecao",
         "ativo": true
       }
