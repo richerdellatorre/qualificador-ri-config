@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T16:22:24.026Z",
+  "ultima_atualizacao": "2026-11-07T16:23:39.453Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -100,7 +100,7 @@
     },
     "AL-ONUS": {
       "ativo": true,
-      "observacao": "DIRETRIZ DE QUALIFICAÇÃO (HIPOTECA E PENHOR CEDULAR RURAL): Sempre que a matrícula apresentar gravame ativo de Hipoteca Cedular ou Penhor Cedular oriundos de Cédula de Crédito Rural (Decreto-Lei nº 167/67) ou Cédula de Produto Rural (Lei nº 8.929/94) não baixados/cancelados, e o título apresentado visar a alienação ou transferência do imóvel (total ou de fração ideal), a IA deve classificar a pendência obrigatoriamente como EXIGÊNCIA (e não apenas Alerta). Deve-se exigir a apresentação da anuência expressa e por escrito do credor fiduciário/hipotecário autorizando a alienação (com firma reconhecida ou assinatura digital válida e comprovação de poderes de representação), ou, alternativamente, o termo de quitação/instrumento de liberação para a prévia averbação de cancelamento dos respectivos gravames na matrícula, nos termos do art. 59 do Decreto-Lei nº 167/67."
+      "observacao": "EXCEÇÃO PARA PENHOR CEDULAR/RURAL: Quando constar na matrícula averbação de Penhor (agrícola, pecuário, mercantil ou cedular, oriundo do Livro 3 - Registro Auxiliar) indicando apenas a localização de bens móveis ou semoventes no imóvel, NÃO exija anuência do credor nem termo de quitação/baixa para permitir a alienação do imóvel. Classifique a existência do penhor estritamente como um ALERTA informativo ao conferente (ciência do adquirente), sem configurar impedimento ou exigência para o registro da transmissão."
     },
     "AL-DOM": {
       "ativo": false,
