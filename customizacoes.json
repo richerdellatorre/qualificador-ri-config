@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-07T16:34:48.626Z",
+  "ultima_atualizacao": "2026-11-07T16:43:32.029Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -131,6 +131,10 @@
     "AL-PROC-01": {
       "ativo": false,
       "motivo_desativacao": "REGRA SOBRE DUPLA REPRESENTAÇÃO POR PROCURADOR (ART. 117 DO CC): Em escrituras públicas onde um único procurador represente simultaneamente ambas as partes contratantes (transmitentes e adquirentes), NÃO gere alerta, exigência ou impedimento referente à dupla representação ou ao art. 117 do Código Civil, DESDE QUE: (1) os dados das respectivas procurações (cartório, livro e folhas) estejam devidamente mencionados no corpo da escritura pública; e (2) conste expressamente a forma de assinatura do procurador (presencial ou digital via e-Notariado). Cumpridos esses dois requisitos, presuma a regularidade da conferência notarial e valide a representação sem ressalvas."
+    },
+    "AL-FECHO-01": {
+      "ativo": true,
+      "observacao": "EXCEÇÃO DE ANÁLISE DO FECHO DA ESCRITURA (REPRESENTAÇÃO POR PROCURAÇÃO): Ao verificar a listagem de assinaturas ('aa.') no encerramento/fecho do traslado da escritura pública, NÃO considere inconsistência ou erro o fato de constar o nome da parte representada (outorgante ou outorgado) juntamente com o nome de seu procurador/representante (ex: 'Fulano de Tal, representado por Ciclano' ou 'Fulano de Tal, Ciclano (Procurador/Representante)'). Trata-se de padrão redacional válido de sistemas notariais. Nesses casos, considere a assinatura regular, abstendo-se de emitir alerta ou exigência sobre a presença do nome do representado no fecho, mantendo-se a exigência apenas se faltar o nome do próprio procurador que efetivamente assinou o ato."
     }
   }
 }
