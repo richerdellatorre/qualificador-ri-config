@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-09T18:58:10.036Z",
+  "ultima_atualizacao": "2026-11-09T19:03:56.042Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -64,6 +64,12 @@
       {
         "codigo": "EX-DADOS-01-9336",
         "descricao": "EXCEÇÃO DE PROCEDIMENTO (FORMA DE PAGAMENTO EM MINUTA): Na conferência da forma de pagamento da minuta de registro em face do título (Cédula de Crédito Bancário, Cédula Rural Hipotecária, Cédula Rural Pignoratícia e Hipotecária), o padrão do cartório é consignar apenas a quantidade total de parcelas, a data de vencimento da primeira parcela e o valor da primeira parcela (ou a faixa de vencimento inicial e final). Portanto, NÃO aponte erro, omissão ou divergência caso a minuta não discrimine individualmente os valores variáveis das parcelas subsequentes, desde que os dados relativos à primeira parcela estejam corretos.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-FORM-01-5226",
+        "descricao": "EXCEÇÃO DE PROCEDIMENTO (FORM-01): Ao verificar a formatação de espaçamento duplo entre parênteses nas áreas de assinatura, IGNORE o fecho final do ato registral. NÃO gere exigências, alertas ou apontamentos de correção de espaçamento para os blocos de assinatura localizados no encerramento/fecho da minuta ou do título.",
         "tipo": "excecao",
         "ativo": true
       }
