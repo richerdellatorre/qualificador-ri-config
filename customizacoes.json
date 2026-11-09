@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-09T18:18:05.223Z",
+  "ultima_atualizacao": "2026-11-09T18:58:10.036Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -58,6 +58,12 @@
       {
         "codigo": "EX-DESC-01-5841",
         "descricao": "DIRETRIZ DE EXCEÇÃO (DESC-01): Quando houver divergência meramente material (como a adição ou omissão de zeros à esquerda/direita) no número da ART/TRT citado na minuta ou requerimento em comparação com o documento original da ART/TRT e os memoriais do SIGEF, NÃO gere exigência de retificação da minuta. Considere como correto e prevalente o número expresso no próprio documento oficial de responsabilidade técnica apresentado. Emita apenas um ALERTA informativo ao escrevente apontando o número exato constante na ART/TRT que deverá ser utilizado na lavratura da averbação.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-DADOS-01-9336",
+        "descricao": "EXCEÇÃO DE PROCEDIMENTO (FORMA DE PAGAMENTO EM MINUTA): Na conferência da forma de pagamento da minuta de registro em face do título (Cédula de Crédito Bancário, Cédula Rural Hipotecária, Cédula Rural Pignoratícia e Hipotecária), o padrão do cartório é consignar apenas a quantidade total de parcelas, a data de vencimento da primeira parcela e o valor da primeira parcela (ou a faixa de vencimento inicial e final). Portanto, NÃO aponte erro, omissão ou divergência caso a minuta não discrimine individualmente os valores variáveis das parcelas subsequentes, desde que os dados relativos à primeira parcela estejam corretos.",
         "tipo": "excecao",
         "ativo": true
       }
