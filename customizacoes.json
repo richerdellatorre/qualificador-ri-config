@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-10T15:35:40.141Z",
+  "ultima_atualizacao": "2026-11-10T16:31:52.885Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -191,6 +191,10 @@
     "IMP-ITBI-01": {
       "ativo": true,
       "observacao": "EXCEÇÃO À REGRA DE APRESENTAÇÃO FÍSICA/DIGITAL DO ITBI (IMP-ITBI-01): Quando o título analisado for Escritura Pública e nela constar, de forma expressa e certificada pelo Tabelião, a menção ao recolhimento do ITBI (contendo número da guia/DAM, data do pagamento, valor recolhido e o valor da base de cálculo), fica DISPENSADA a exigência de apresentação avulsa da Guia de Recolhimento e da Certidão de Quitação do ITBI. Nesses casos, considere o requisito fiscal cumprido pela fé pública notarial, gerando exigência apenas se houver omissão da base de cálculo ou divergência evidente entre os valores declarados."
+    },
+    "AL-FECHO-02": {
+      "ativo": false,
+      "motivo_desativacao": "REGRA DE ASSINATURA DO CÔNJUGE DO ADQUIRENTE (COMPRADOR): Na compra e venda pura e simples (sem instituição de ônus real), é dispensada a comparecência e a assinatura do cônjuge do comprador no título e no fecho (físico ou e-Notariado), bastando a sua qualificação completa para fins de comunicação patrimonial conforme o regime de bens. A IA NÃO DEVE gerar alerta ou exigência pela ausência de assinatura do cônjuge do adquirente nesses casos. EXCEÇÃO OBRIGATÓRIA: Exigir a assinatura e anuência expressa do cônjuge do comprador SOMENTE quando o título contiver: 1) Cláusula de incomunicabilidade, sub-rogação ou declaração de aquisição exclusiva com recursos particulares de apenas um dos cônjuges; ou 2) Instituição simultânea de garantia real sobre o imóvel (ex: alienação fiduciária ou hipoteca)."
     }
   }
 }
