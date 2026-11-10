@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-10T13:47:08.162Z",
+  "ultima_atualizacao": "2026-11-10T15:28:22.818Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -84,6 +84,12 @@
       {
         "codigo": "EX-DOC-01-9733",
         "descricao": "DIRETRIZ DE QUALIFICAÇÃO SUBJETIVA (CNH - ÓRGÃO EXPEDIDOR): O padrão exigido pela serventia para o órgão expedidor da Carteira Nacional de Habilitação (CNH) é 'DETRAN/[UF]' (exemplo: DETRAN/RO). Caso o título ou documento apresentado indique 'SENATRAN' ou 'SENATRAN/[UF]', mas a minuta ou o ato registral tenha convertido para 'DETRAN/[UF]', NÃO aponte divergência, erro ou exigência, validando 'DETRAN/[UF]' como a forma correta. Por outro lado, se a minuta a ser registrada grafar 'SENATRAN', emita um ALERTA orientando o escrevente a substituir para o padrão da serventia ('DETRAN/[UF]').",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-UE-01-2190",
+        "descricao": "EXCEÇÃO DE REDAÇÃO NA REGRA UE-01 (QUALIFICAÇÃO CONJUNTA EM UNIÃO ESTÁVEL): Quando ambos os conviventes possuírem o estado civil 'solteiro', admite-se e recomenda-se que a indicação do estado civil e da capacidade civil seja redigida de forma conjunta e no plural ('solteiros, maiores e capazes'), posicionada imediatamente após a indicação da nacionalidade ('brasileiros') e antes da menção à convivência em união estável nos termos do art. 1.723 do Código Civil. A IA NÃO deve apontar erro ou divergência de ordem estrutural quando o título ou a minuta adotar essa formatação agrupada no plural para conviventes solteiros.",
         "tipo": "excecao",
         "ativo": true
       }
