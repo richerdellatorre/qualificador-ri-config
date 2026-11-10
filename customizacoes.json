@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-09T19:03:56.042Z",
+  "ultima_atualizacao": "2026-11-10T11:43:25.688Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -70,6 +70,12 @@
       {
         "codigo": "EX-FORM-01-5226",
         "descricao": "EXCEÇÃO DE PROCEDIMENTO (FORM-01): Ao verificar a formatação de espaçamento duplo entre parênteses nas áreas de assinatura, IGNORE o fecho final do ato registral. NÃO gere exigências, alertas ou apontamentos de correção de espaçamento para os blocos de assinatura localizados no encerramento/fecho da minuta ou do título.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-PJ-01-5030",
+        "descricao": "DIRETRIZ DE EXCEÇÃO (REGRA PJ-01): Fica totalmente dispensada a exigência da menção expressa '(Art. 655 – DGE/RO)' após a qualificação e indicação da sede/agência para TODAS as pessoas jurídicas que figurem exclusivamente na condição de CREDORAS no título (incluindo credor fiduciário, hipotecário, pignoratício ou anticrético). Nesses casos, NÃO aponte exigência ou pendência pela ausência da referida citação normativa, bastando a qualificação societária padrão (Razão Social, CNPJ e endereço/sede).",
         "tipo": "excecao",
         "ativo": true
       }
