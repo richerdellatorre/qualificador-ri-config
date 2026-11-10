@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-10T18:44:47.876Z",
+  "ultima_atualizacao": "2026-11-10T19:10:51.391Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -97,6 +97,12 @@
       {
         "codigo": "EX-UE-01-9454",
         "descricao": "REGRA DE QUALIFICAÇÃO EM UNIÃO ESTÁVEL (UE-01): Quando ambos os conviventes possuírem o mesmo estado civil (ex: ambos solteiros, divorciados ou viúvos), admite-se a qualificação conjunta da nacionalidade, estado civil e capacidade civil ao final da qualificação do segundo convivente (Exemplo aceito: '[Qualificação do 1º Convivente], que declara conviver em união estável com [Qualificação do 2º Convivente], de nacionalidade brasileira, solteiros, maiores e capazes...'). INSTRUÇÃO À IA: NÃO gere exigência ou alerta sobre a posição topográfica do estado civil no texto se ele estiver declarado conjuntamente para o casal após o segundo nome. Gere EXIGÊNCIA (Especialidade Subjetiva) EXCLUSIVAMENTE quando houver OMISSÃO TOTAL do estado civil de um ou de ambos os conviventes.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-QUAL-01-0808",
+        "descricao": "DIRETRIZ DE EXCEÇÃO (QUAL-01): Na qualificação de partes casadas entre si ou conviventes em união estável (APENAS vendedores), é VÁLIDO e ACEITO o padrão textual em que os dados pessoais (nome, documento de identidade e CPF) do primeiro cônjuge e do segundo cônjuge são descritos em sequência, posicionando-se a informação do estado civil, regime de bens, nacionalidade e endereço conjuntamente apenas após a qualificação de ambos. NÃO gerar exigência ou alerta por conta dessa ordem estrutural.",
         "tipo": "excecao",
         "ativo": true
       }
