@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-11T15:19:11.205Z",
+  "ultima_atualizacao": "2026-11-11T15:24:50.913Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -212,6 +212,10 @@
     "AL-SS-MAT": {
       "ativo": true,
       "observacao": "REGRA DE QUALIFICAÇÃO SUBJETIVA (FILIAÇÃO): A indicação da filiação das partes (transmitentes, adquirentes e cônjuges) é OBRIGATÓRIA exclusivamente nos títulos apresentados a registro (escrituras públicas, instrumentos particulares, títulos judiciais e requerimentos). É DISPENSÁVEL a constatação de filiação no teor da matrícula ou nos registros aquisitivos anteriores. Portanto, NÃO gere alertas, exigências ou saneamentos subjetivos (SS-01) caso a filiação das partes esteja ausente na matrícula do imóvel."
+    },
+    "AL-ITR-01": {
+      "ativo": true,
+      "observacao": "DIRETRIZ DE PROCEDIMENTO (REGRA AL-ITR-01): Na análise comparativa de valores envolvendo imóveis rurais não isentos de ITR (DIAC/DIAT), utilize EXCLUSIVAMENTE o 'Valor Total do Imól\". Não mencionar ou realizar cálculos comparativos baseados no 'Valor da Terra Nua' (VTN) na redação do alerta quando vier o valor total do imóvel no ITR. Adicionalmente, todos os valores monetários apurados — inclusive os resultantes de cálculos proporcionais — devem ser obrigatoriamente arredondados para duas casas decimais e formatados no padrão monetário brasileiro (R$ X.XXX,XX, utilizando ponto como separador de milhar e vírgula para centavos), sendo proibido exibir dízimas ou mais de duas casas decimais."
     }
   }
 }
