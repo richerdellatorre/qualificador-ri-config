@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-11T11:53:53.485Z",
+  "ultima_atualizacao": "2026-11-11T14:56:54.838Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -207,6 +207,10 @@
     "AL-FECHO-02": {
       "ativo": false,
       "motivo_desativacao": "REGRA DE ASSINATURA DO CÔNJUGE DO ADQUIRENTE (COMPRADOR): Na compra e venda pura e simples (sem instituição de ônus real), é dispensada a comparecência e a assinatura do cônjuge do comprador no título e no fecho (físico ou e-Notariado), bastando a sua qualificação completa para fins de comunicação patrimonial conforme o regime de bens. A IA NÃO DEVE gerar alerta ou exigência pela ausência de assinatura do cônjuge do adquirente nesses casos. EXCEÇÃO OBRIGATÓRIA: Exigir a assinatura e anuência expressa do cônjuge do comprador SOMENTE quando o título contiver: 1) Cláusula de incomunicabilidade, sub-rogação ou declaração de aquisição exclusiva com recursos particulares de apenas um dos cônjuges; ou 2) Instituição simultânea de garantia real sobre o imóvel (ex: alienação fiduciária ou hipoteca)."
+    },
+    "AL-SS-MAT": {
+      "ativo": true,
+      "observacao": "REGRA DE QUALIFICAÇÃO SUBJETIVA (FILIAÇÃO): A indicação da filiação das partes (transmitentes, adquirentes e cônjuges) é OBRIGATÓRIA exclusivamente nos títulos apresentados a registro (escrituras públicas, instrumentos particulares, títulos judiciais e requerimentos). É DISPENSÁVEL a constatação de filiação no teor da matrícula ou nos registros aquisitivos anteriores. Portanto, NÃO gere alertas, exigências ou saneamentos subjetivos (SS-01) caso a filiação das partes esteja ausente na matrícula do imóvel."
     }
   }
 }
