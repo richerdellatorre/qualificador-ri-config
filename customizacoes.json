@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-13T14:16:41.820Z",
+  "ultima_atualizacao": "2026-11-13T19:54:19.698Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -104,6 +104,12 @@
       {
         "codigo": "EX-QUAL-01-0808",
         "descricao": "DIRETRIZ DE EXCEÇÃO (QUAL-01): Na qualificação de partes casadas entre si ou conviventes em união estável (APENAS vendedores), é VÁLIDO e ACEITO o padrão textual em que os dados pessoais (nome, documento de identidade e CPF) do primeiro cônjuge e do segundo cônjuge são descritos em sequência, posicionando-se a informação do estado civil, regime de bens, nacionalidade e endereço conjuntamente apenas após a qualificação de ambos. NÃO gerar exigência ou alerta por conta dessa ordem estrutural.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-DOC-01-9001",
+        "descricao": "DIRETRIZ DE PADRONIZAÇÃO DE MINUTA (CIN - RG/CPF): Quando o título ou documento apresentado indicar que a parte possui a Carteira de Identidade Nacional (CIN), cujo número unifica o RG e o CPF, a minuta do ato registral deverá seguir estritamente o seguinte padrão redacional: 'portador(a) da Carteira de Identidade Nacional (CIN) RG/CPF sob nº [número do CPF], expedida pela [Sigla do Órgão Emissor/UF]'. Nesses casos: 1) É obrigatória a menção ao órgão expedidor na minuta; 2) Não se deve repetir o número do CPF isoladamente na qualificação, pois este já integra a numeração da CIN; 3) Se a minuta analisada trouxer apenas o CPF e omitir a menção à CIN e ao órgão expedidor constantes no título, aponte erro de redação na minuta solicitando a adequação para o padrão acima.",
         "tipo": "excecao",
         "ativo": true
       }
