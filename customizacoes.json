@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-13T19:54:19.698Z",
+  "ultima_atualizacao": "2026-11-13T19:55:48.916Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -110,6 +110,12 @@
       {
         "codigo": "EX-DOC-01-9001",
         "descricao": "DIRETRIZ DE PADRONIZAÇÃO DE MINUTA (CIN - RG/CPF): Quando o título ou documento apresentado indicar que a parte possui a Carteira de Identidade Nacional (CIN), cujo número unifica o RG e o CPF, a minuta do ato registral deverá seguir estritamente o seguinte padrão redacional: 'portador(a) da Carteira de Identidade Nacional (CIN) RG/CPF sob nº [número do CPF], expedida pela [Sigla do Órgão Emissor/UF]'. Nesses casos: 1) É obrigatória a menção ao órgão expedidor na minuta; 2) Não se deve repetir o número do CPF isoladamente na qualificação, pois este já integra a numeração da CIN; 3) Se a minuta analisada trouxer apenas o CPF e omitir a menção à CIN e ao órgão expedidor constantes no título, aponte erro de redação na minuta solicitando a adequação para o padrão acima.",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-NORM-01-8253",
+        "descricao": "EXCEÇÃO À REGRA NORM-01 (ITCMD EM DOAÇÃO): Quando analisar atos de doação ou inventário e partilha, verifique preliminarmente o texto da Escritura Pública apresentada. Caso conste expressamente no corpo da escritura a menção aos dados de recolhimento do ITCMD (número da guia/DARE, valor, data de pagamento) ou a declaração formal de reconhecimento de isenção/imunidade tributária pela SEFIN/RO, NÃO gere exigência, alerta ou apontamento quanto à ausência desses dados na minuta do registro ou pela falta das guias avulsas, considerando o requisito fiscal integralmente cumprido. Caso conste que o ITCMD deve ser apresentado no Cartório de Registro de Imóveis, apontar",
         "tipo": "excecao",
         "ativo": true
       }
