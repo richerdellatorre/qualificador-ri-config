@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-13T19:55:48.916Z",
+  "ultima_atualizacao": "2026-11-16T15:35:37.102Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -233,6 +233,10 @@
     "IMP-ITBI-CERT": {
       "ativo": true,
       "observacao": "EXCEÇÃO DE PROCEDIMENTO (ITBI - FÉ PÚBLICA NOTARIAL): Quando o título apresentado for Escritura Pública e houver menção expressa no texto notarial acerca DO RECOLHIMENTO DO ITBI acompanhada do valor da avaliação fiscal/base de cálculo utilizada pelo Município, DISPENSE a apresentação física/digital da guia de recolhimento ou da certidão de quitação de ITBI em separado, mesmo que não conste na escritura o valor exato recolhido em moeda. Presuma a regularidade da conferência tributária em razão da fé pública do Tabelião de Notas e NÃO gere exigência ou impedimento por falta do documento avulso de ITBI."
+    },
+    "AL-FECHO-INCOM": {
+      "ativo": true,
+      "observacao": "EXCEÇÃO À REGRA DE ANUÊNCIA CONJUGAL EM CLÁUSULA DE INCOMUNICABILIDADE / SUB-ROGAÇÃO: Quando o título analisado for uma DOAÇÃO (transmissão gratuita) na qual o(s) doador(es) impuser(em) cláusula de incomunicabilidade sobre o imóvel em favor de donatário(s) casado(s), é DISPENSADA a assinatura ou anuência do cônjuge do donatário no ato e no fecho da escritura. Nesses casos, a IA NÃO deve gerar exigência nem alerta de ausência de assinatura do cônjuge (AL-FECHO-INCOM). A assinatura/anuência do cônjuge para exclusão do bem da comunhão SOMENTE deve ser cobrada/alertada quando se tratar de AQUISIÇÃO ONEROSA (ex: compra e venda com sub-rogação de bens particulares)."
     }
   }
 }
