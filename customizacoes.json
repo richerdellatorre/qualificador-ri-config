@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-18T15:03:41.522Z",
+  "ultima_atualizacao": "2026-11-20T22:30:04.748Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -241,6 +241,10 @@
     "AL-FECHO-INCOM": {
       "ativo": true,
       "observacao": "EXCEÇÃO À REGRA DE ANUÊNCIA CONJUGAL EM CLÁUSULA DE INCOMUNICABILIDADE / SUB-ROGAÇÃO: Quando o título analisado for uma DOAÇÃO (transmissão gratuita) na qual o(s) doador(es) impuser(em) cláusula de incomunicabilidade sobre o imóvel em favor de donatário(s) casado(s), é DISPENSADA a assinatura ou anuência do cônjuge do donatário no ato e no fecho da escritura. Nesses casos, a IA NÃO deve gerar exigência nem alerta de ausência de assinatura do cônjuge (AL-FECHO-INCOM). A assinatura/anuência do cônjuge para exclusão do bem da comunhão SOMENTE deve ser cobrada/alertada quando se tratar de AQUISIÇÃO ONEROSA (ex: compra e venda com sub-rogação de bens particulares)."
+    },
+    "AL-PJ-01": {
+      "ativo": false,
+      "motivo_desativacao": "DIRETRIZ DE EXCEÇÃO (REGRA AL-PJ-01 — CERTIDÃO SIMPLIFICADA ANTERIOR À ALTERAÇÃO CONTRATUAL EM ESCRITURA PÚBLICA): Quando o título apresentado for Escritura Pública e nela constar a menção expressa ao contrato social, alteração contratual ou consolidação que legitima a representação da pessoa jurídica (inclusive na condição de outorgada/credora), NÃO gere exigência, impedimento ou alerta pelo simples fato de a Certidão Simplificada da Junta Comercial citada ou acompanhada possuir data de expedição anterior à referida alteração contratual. Presume-se a regularidade da conferência societária pelo Tabelião de Notas em decorrência da fé pública notarial, dando-se o requisito por atendido, salvo se houver vício de representação evidente no próprio texto da escritura ou se tratar de aquisição de imóvel rural sem comprovação da nacionalidade exclusivamente brasileira dos sócios (Lei nº 5.709/71)."
     }
   }
 }
