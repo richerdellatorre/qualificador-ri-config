@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-23T16:15:34.640Z",
+  "ultima_atualizacao": "2026-11-23T17:53:43.250Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -246,6 +246,10 @@
     "AL-PJ-01": {
       "ativo": false,
       "motivo_desativacao": "DIRETRIZ DE EXCEÇÃO (REGRA AL-PJ-01 — CERTIDÃO SIMPLIFICADA ANTERIOR À ALTERAÇÃO CONTRATUAL EM ESCRITURA PÚBLICA): Quando o título apresentado for Escritura Pública e nela constar a menção expressa ao contrato social, alteração contratual ou consolidação que legitima a representação da pessoa jurídica (inclusive na condição de outorgada/credora), NÃO gere exigência, impedimento ou alerta pelo simples fato de a Certidão Simplificada da Junta Comercial citada ou acompanhada possuir data de expedição anterior à referida alteração contratual. Presume-se a regularidade da conferência societária pelo Tabelião de Notas em decorrência da fé pública notarial, dando-se o requisito por atendido, salvo se houver vício de representação evidente no próprio texto da escritura ou se tratar de aquisição de imóvel rural sem comprovação da nacionalidade exclusivamente brasileira dos sócios (Lei nº 5.709/71)."
+    },
+    "AL-ESP-OBJ": {
+      "ativo": true,
+      "observacao": "DIRETRIZ DE ESPECIALIDADE OBJETIVA — CONTRATOS DA CAIXA ECONÔMICA FEDERAL (AL-ESP-OBJ): Na análise de contratos por instrumento particular emitidos pela Caixa Econômica Federal (CEF), NÃO exija e NÃO aponte alerta ou exigência pela ausência de transcrição das medidas perimetrais e confrontações na descrição do imóvel (Quadro D), considerando atendido o Princípio da Especialidade Objetiva desde que constem os dados essenciais de individualização (número da matrícula, lote, quadra, setor, área do terreno e, quando houver, o nome do loteamento). Adicionalmente, valide a área construída conforme a modalidade do contrato: 1) FINANCIAMENTO DE CONSTRUÇÃO (Aquisição de Terreno e Construção / Construção em Terreno Próprio): verifique apenas se consta no contrato a metragem da construção que será edificada, sem exigir que ela já conste averbada na matrícula; 2) IMÓVEL PRONTO / CONCLUÍDO: verifique se a área construída informada no contrato coincide exatamente com a área construída já averbada na matrícula, gerando EXIGÊNCIA caso haja divergência de metragem ou ausência de averbação da construção na matrícula."
     }
   }
 }
