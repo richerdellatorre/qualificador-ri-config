@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-24T14:40:53.784Z",
+  "ultima_atualizacao": "2026-11-24T15:53:06.091Z",
   "versao": "1.0",
   "instrucoes_adicionais": [
     "nova regra: Ao revisar documentos que recolhem ITBI e for venda de fração ideal do imóvel, verifique rigorosamente se a Certidão de Quitação do ITBI especifica de forma clara e expressa que o recolhimento do imposto refere-se tão somente à fração negociada, e não à totalidade do imóvel. Caso a certidão mencione o imóvel inteiro sem a devida ressalva da fração, aponte o erro imediatamente.",
@@ -119,6 +119,12 @@
       {
         "codigo": "EX-NORM-01-8253",
         "descricao": "EXCEÇÃO À REGRA NORM-01 (ITCMD EM DOAÇÃO): Quando analisar atos de doação ou inventário e partilha, verifique preliminarmente o texto da Escritura Pública apresentada. Caso conste expressamente no corpo da escritura a menção aos dados de recolhimento do ITCMD (número da guia/DARE, valor, data de pagamento) ou a declaração formal de reconhecimento de isenção/imunidade tributária pela SEFIN/RO, NÃO gere exigência, alerta ou apontamento quanto à ausência desses dados na minuta do registro ou pela falta das guias avulsas, considerando o requisito fiscal integralmente cumprido. Caso conste que o ITCMD deve ser apresentado no Cartório de Registro de Imóveis, apontar",
+        "tipo": "excecao",
+        "ativo": true
+      },
+      {
+        "codigo": "EX-FORM-01-4952",
+        "descricao": "COMPLEMENTO À EXCEÇÃO DE PROCEDIMENTO (FORMA DE PAGAMENTO EM CÉDULAS E CONTRATOS - EX-DADOS-01-9336): Na conferência da forma de pagamento da minuta registral em face do título (especialmente em Cédulas de Crédito Bancário ou Cédulas Rurais emitidas pelo Banco do Brasil e instituições congêneres), a consignação do valor monetário da parcela (ou do valor da primeira parcela) SOMENTE deverá ser exigida quando esse valor constar expressamente no corpo do título apresentado. Caso o título informe apenas a quantidade de parcelas e as respectivas datas de vencimento (sem especificar o valor em moeda de cada prestação), NÃO aponte erro, omissão ou inconsistência pela ausência do valor da parcela na minuta.",
         "tipo": "excecao",
         "ativo": true
       }
